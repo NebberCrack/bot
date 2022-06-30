@@ -46,7 +46,7 @@ rows: [
 let name = await conn.getName(m.sender)
 //let name = conn.getName(m.sender)
 const listMessage = {
-text: `╭─────────────────────❀\n│${ucapan()}\n│¸.• *${name}* •.¸\n╰─────────────────────❀
+text: `╭─────────────────❀\n│${ucapan()}\n│¸.• *${name}* •.¸\n╰─────────────────❀
 ╭━━━〔 *${wm}* 〕━━━⬣
 ┃✪ *Tiempo Actual*	    
 ┃➺ ${time}   
