@@ -5,13 +5,7 @@ const groupAdmins = participants.filter(p => p.admin)
 const listAdmin = groupAdmins.map((v, i) => `${i + 1}. @${v.id.split('@')[0]}`).join('\n')
 const owner = groupMetadata.owner || groupAdmins.find(p => p.admin === 'superadmin')?.id || m.chat.split`-`[0] + '@s.whatsapp.net'
 let text = 
-`╭━━━[ *${groupMetadata.subject}* ]━━━━⬣
-
-✨ 𝙄𝘿𝙀𝙉𝙏𝙄𝙁𝙄𝘾𝘼𝘾𝙄𝙊𝙉 𝘿𝙀𝙇 𝙂𝙍𝙐𝙋𝙊
-${groupMetadata.id}
-
-✨ 𝙉𝙊𝙈𝘽𝙍𝙀 𝘿𝙀𝙇 𝙂𝙍𝙐𝙋𝙊
-${groupMetadata.subject}
+`╭━[ *${groupMetadata.subject}* ]━⬣
 
 ✨ 𝘿𝙀𝙎𝘾𝙍𝙄𝙋𝘾𝙄𝙊𝙉
 ${groupMetadata.desc?.toString() || '𝙉𝙊 𝙃𝘼𝙔 𝘿𝙀𝙎𝘾𝙍𝙄𝙋𝘾𝙄𝙊𝙉'}
@@ -19,8 +13,6 @@ ${groupMetadata.desc?.toString() || '𝙉𝙊 𝙃𝘼𝙔 𝘿𝙀𝙎𝘾𝙍�
 ✨ 𝙉𝙐𝙈𝙀𝙍𝙊 𝘿𝙀 𝙐𝙎𝙐𝘼𝙍𝙄𝙊𝙎
 ${participants.length} Participantes
 
-✨ 𝘾𝙍𝙀𝘼𝘿𝙊𝙍(𝘼) 𝘿𝙀𝙇 𝙂𝙍𝙐𝙋𝙊
-@${owner.split('@')[0]}
 
 ✨ 𝘼𝘿𝙈𝙄𝙉𝙎 𝘿𝙀𝙇 𝙂𝙍𝙐𝙋𝙊
 ${listAdmin}
@@ -43,6 +35,6 @@ conn.sendHydrated(m.chat, text, wm, pp, md, 'The Lolibot-𝙈𝘿', null, null, 
 }
 handler.help = ['infogrup']
 handler.tags = ['group']
-handler.command = /^(infogrupo|gro?upinfo|info(gro?up|gc))$/i
+handler.command = /^(reglas|gro?upinfo|info(gro?up|gc))$/i
 handler.group = true
 export default handler
