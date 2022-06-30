@@ -21,7 +21,7 @@ ${listAdmin}
 ╰━━━━━━❰ *𓃠 ${vs}* ❱━━━━━⬣
 `.trim()
 //conn.sendFile(m.chat, pp, 'error.jpg', text, m, false, { mentions: [...groupAdmins.map(v => v.id), owner] })
-conn.sendHydrated(m.chat, text, wm, pp, md, 'Romina 🥀 - Bot', null, null, [
+conn.sendHydrated(m.chat, text, wm, pp, 'Romina 🥀 - Bot', null, null, [
 
 ], m, false, { mentions: [...groupAdmins.map(v => v.id), owner] })
 }
