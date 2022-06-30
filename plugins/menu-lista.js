@@ -47,8 +47,7 @@ let name = await conn.getName(m.sender)
 //let name = conn.getName(m.sender)
 const listMessage = {
 text: `╭─────────────────❀\n│${ucapan()}\n│¸.• *${name}* •.¸\n╰─────────────────❀
-╭━━━〔 *${wm}* 〕━━━⬣
-┃✪ *Tiempo Actual*	    
+╭✪ *Tiempo Actual*	    
 ┃➺ ${time}   
 ┃   ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃✪ *Activa durante* 
@@ -59,7 +58,7 @@ text: `╭─────────────────❀\n│${ucapan()}
 ┃   ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃✪ *Usuario(s) Prohibido(s)*
 ┃➺ ${Object.entries(global.db.data.users).filter(user => user[1].banned).length}
-╰━━━━━━━━━━━━━━━━━━━━━⬣`, footer: `${wm}`, //${name} ${ucapan()}
+╰━━━━━━━━━━━━━━━━━━⬣`, footer: `${wm}`, //${name} ${ucapan()}
 title: null,
 buttonText: "𝙇𝙄𝙎𝙏𝘼 𝘿𝙀 𝙈𝙀𝙉𝙐", 
 sections }
