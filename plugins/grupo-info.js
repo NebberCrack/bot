@@ -5,7 +5,7 @@ const groupAdmins = participants.filter(p => p.admin)
 const listAdmin = groupAdmins.map((v, i) => `${i + 1}. @${v.id.split('@')[0]}`).join('\n')
 const owner = groupMetadata.owner || groupAdmins.find(p => p.admin === 'superadmin')?.id || m.chat.split`-`[0] + '@s.whatsapp.net'
 let text = 
-`╭━[ *${groupMetadata.subject}* ]━⬣
+`╭[ *${groupMetadata.subject}* ]
 
 ✨ 𝘿𝙀𝙎𝘾𝙍𝙄𝙋𝘾𝙄𝙊𝙉
 ${groupMetadata.desc?.toString() || '𝙉𝙊 𝙃𝘼𝙔 𝘿𝙀𝙎𝘾𝙍𝙄𝙋𝘾𝙄𝙊𝙉'}
@@ -17,20 +17,12 @@ ${participants.length} Participantes
 ✨ 𝘼𝘿𝙈𝙄𝙉𝙎 𝘿𝙀𝙇 𝙂𝙍𝙐𝙋𝙊
 ${listAdmin}
 
-✨ 𝘾𝙊𝙉𝙁𝙄𝙂𝙐𝙍𝘼𝘾𝙄𝙊𝙉 𝙊𝙉/𝙊𝙁𝙁
-𝙒𝙀𝙇𝘾𝙊𝙈𝙀 ${welcome ? '✅' : '❌'}
-𝘿𝙀𝙏𝙀𝘾𝙏 ${detect ? '✅' : '❌'} 
-𝘼𝙉𝙏𝙄𝙇𝙄𝙉𝙆 ${antiLink ? '✅' : '❌'} 
-𝘼𝙉𝙏𝙄𝙇𝙄𝙉𝙆 *2* ${antiLink2 ? '✅' : '❌'} 
-𝙈𝙊𝘿𝙊 𝙃𝙊𝙍𝙉𝙔 ${modohorny ? '✅' : '❌'} 
-𝘼𝙐𝙏𝙊𝙎𝙏𝙄𝘾𝙆𝙀𝙍 ${autosticker ? '✅' : '❌'} 
-𝘼𝙐𝘿𝙄𝙊𝙎 ${audios ? '✅' : '❌'} 
 
 ╰━━━━━━❰ *𓃠 ${vs}* ❱━━━━━⬣
 `.trim()
 //conn.sendFile(m.chat, pp, 'error.jpg', text, m, false, { mentions: [...groupAdmins.map(v => v.id), owner] })
-conn.sendHydrated(m.chat, text, wm, pp, md, 'The Lolibot-𝙈𝘿', null, null, [
-['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ ☘️', '/menu']
+conn.sendHydrated(m.chat, text, wm, pp, md, 'Romina 🥀 - Bot', null, null, [
+[' ', '']
 ], m, false, { mentions: [...groupAdmins.map(v => v.id), owner] })
 }
 handler.help = ['infogrup']
