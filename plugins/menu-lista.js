@@ -29,10 +29,7 @@ const sections = [
 {
 title: `𝙇𝙄𝙎𝙏𝘼 𝘿𝙀𝙎𝙋𝙇𝙀𝙂𝘼𝘽𝙇𝙀`,
 rows: [
-      {title: "🙂 𝘾𝙍𝙀𝘼𝘿𝙊𝙍 🙃", description: null, rowId: `${usedPrefix}creadora`},
-      {title: "🚀 𝙑𝙀𝙇𝙊𝘾𝙄𝘿𝘼𝘿 | 𝙎𝙋𝙀𝙀𝘿 🚀", description: null, rowId: `${usedPrefix}ping`},
       {title: "🎁 𝙈𝙀𝙉𝙐 𝘾𝙊𝙈𝙋𝙇𝙀𝙏𝙊 🎁", description: null, rowId: `${usedPrefix}allmenu`},
-      {title: "🌟 𝙄𝙉𝙁𝙊𝙍𝙈𝘼𝘾𝙄𝙊𝙉 🌟", description: null, rowId: `${usedPrefix}infomenu`},
       {title: "🎡 𝙅𝙐𝙀𝙂𝙊𝙎 𝘿𝙄𝙉𝘼𝙈𝙄𝘾𝙊𝙎 🎡", description: null, rowId: `${usedPrefix}juegosmenu`},
       {title: "🔊 𝙈𝙀𝙉𝙐 𝘿𝙀 𝘼𝙐𝘿𝙄𝙊𝙎 🔊", description: null, rowId: `${usedPrefix}audios`},
       {title: "🔰 𝙈𝙀𝙉𝙐 𝘿𝙀 𝙂𝙍𝙐𝙋𝙊 🔰", description: null, rowId: `${usedPrefix}grupomenu`},
@@ -60,7 +57,7 @@ text: `╭─────────────────❀\n│${ucapan()}
 ┃➺ ${Object.entries(global.db.data.users).filter(user => user[1].banned).length}
 ╰━━━━━━━━━━━━━━━━━━⬣`, footer: `${wm}`, //${name} ${ucapan()}
 title: null,
-buttonText: "𝙇𝙄𝙎𝙏𝘼 𝘿𝙀 𝙈𝙀𝙉𝙐", 
+title: "𝙇𝙄𝙎𝙏𝘼 𝘿𝙀 𝙈𝙀𝙉𝙐", 
 sections }
 
 await conn.sendMessage(m.chat, listMessage)
