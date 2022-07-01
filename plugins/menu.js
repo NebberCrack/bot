@@ -66,14 +66,14 @@ let pp = './Menu2.jpg'
 //user.registered = false
   
  let str = `
-╭━━〘 𝗠𝗘𝗡𝗨 𝗗𝗘𝗟 𝗕𝗢𝗧 〙 
+╭━━〔 MENU DEL BOT 〙━━⬣   
 ┃ 💖 ¡Hola! ${username} 💖
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃ *𝘼𝙐𝘿𝙄𝙊𝙎*
+┃ *𝙈𝙀𝙉𝙐 𝘿𝙀 𝘼𝙐𝘿𝙄𝙊𝙎*
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃ *No es necesario el prefijo*
 ┃ *Puede solo escribir la*
-┃ *Palabra o Frase 2.*
+┃ *Palabra o Frase.*
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃➫🔊 _Noche de paz_
 ┃➫🔊 _Buenos dias_
@@ -202,8 +202,10 @@ let pp = './Menu2.jpg'
 ┃➫🔊 _Las reglas del grupo_
 ╰━━━━━━〔 *𓃠 ${vs}* 〕━━━━━━⬣
 `.trim()
-await conn.sendHydrated(m.chat, str, 'The Lolibot-MD', null, null, [
-
+await conn.sendHydrated(m.chat, str, wm, pp, md, 'Romina 🥀 - Bot', null, null, [
+['𝙈𝙚𝙣𝙪́ 𝙘𝙤𝙢𝙥𝙡𝙚𝙩𝙤 💫', '.allmenu'],
+['𝙈𝙚𝙣𝙪 𝙙𝙚𝙨𝙥𝙡𝙚𝙜𝙖𝙗𝙡𝙚 🌟', '/menulista'],
+['𝙈𝙚𝙣𝙪 𝙋𝙧𝙞𝙣𝙘𝙞𝙥𝙖𝙡 ⚡', '#menu']
 ], m)  
   
   
@@ -354,9 +356,24 @@ rows: [
 ]}, ]
 //let name = await conn.getName(m.sender)
 
+const listMessage = {
+text: `The Lolibot-MD| 𝘼𝙐𝘿𝙄𝙊𝙎`,
+footer: `*╭━━━〔 𝙈𝙀𝙉𝙐 𝘿𝙄𝙉𝘼𝙈𝙄𝘾𝙊 〕━━━⬣*
+*┃ 𝙃𝙚𝙮! 𝙖𝙦𝙪𝙞 𝙥𝙪𝙚𝙙𝙚 𝙚𝙡𝙚𝙜𝙞𝙧*
+*┃ 𝙚𝙡 𝘼𝙪𝙙𝙞𝙤 𝙖 𝙨𝙚𝙧 𝙪𝙩𝙞𝙡𝙞𝙯𝙖𝙙𝙤.*
+*╰━━━━━━━━━━━━━━━━━⬣*
+${wm}`,
+title: null,
+buttonText: "𝙎𝙀𝙇𝙀𝘾𝘾𝙄𝙊𝙉𝘼𝙍 𝘼𝙐𝘿𝙄𝙊", 
+sections }
+
+ conn.sendMessage(m.chat, listMessage)
+
+}
+
 handler.help = ['infomenu'].map(v => v + 'able <option>')
 handler.tags = ['group', 'owner']
-handler.command = /^(menu2|audiox)$/i
+handler.command = /^(menu2|audios|menú2|memu2|menuaudio|menuaudios|memuaudios|memuaudio|audios|audio)$/i
 handler.exp = 60
 //handler.register = true
 export default handler
