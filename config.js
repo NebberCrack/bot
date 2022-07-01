@@ -5,7 +5,7 @@ import { fileURLToPath } from 'url'
 //⊱ ━━━━━.⋅ Añada los numeros a ser Propietario/a | Add the numbers to be Owner ⋅.━━━━ ⊰
 global.owner = [
   ['994400781527', 'creador', true],
-  ['48699553949'],
+  ['12366002792'],
   ['240222921821'],
   ['50495745934'],
   ['56950377550']
@@ -13,7 +13,7 @@ global.owner = [
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
 global.mods = [] 
-global.prems = ['56950377550'], 
+global.prems = ['994400781527'], 
 
 global.APIs = { // API Prefix.
   
@@ -91,7 +91,7 @@ global.youtube = yt
 global.ig = ''
 global.gatadiosig = ig
 
-global.md = 'https://github.com/NebberCrack'
+global.md = 'https://consultarec.com/'
 global.gatabot = md
 
 global.nn = 'https://chat.whatsapp.com/Lus9S60MABnH9lF4Wf2T7k'
