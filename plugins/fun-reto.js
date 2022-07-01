@@ -1,9 +1,9 @@
 let handler  = async (m, { conn, usedPrefix, command }) => {
 //conn.reply(m.chat,`*┌────「 RETO 」─*\n*“${pickRandom(global.bucin)}”*\n*└────「 Mystic 」─*`, m)
-conn.sendHydrated(m.chat, `╭━━━━━[ 𝙍𝙀𝙏𝙊 😏 ]━━━━⬣\n*“${pickRandom(global.bucin)}”*\n╰━━━━━━[ ${vs} ]━━━━━⬣`, wm, null, md, 'ᴿᵒᵐⁱⁿᵃ 🥀 ⁻ ᴮᵒᵗ', null, null, [
-['𝙊𝙩𝙧𝙖 𝙫𝙚𝙯 🧐', `${usedPrefix}reto`],
+conn.sendHydrated(m.chat, `╭━━━━━[ 𝙍𝙀𝙏𝙊 😏 ]━━━━⬣\n*“${pickRandom(global.bucin)}”*\n╰━━━━━━[ ᴿᵒᵐⁱⁿᵃ 🥀 ⁻ ᴮᵒᵗ ]━━━━━⬣`, wm, null, md, 'ᴿᵒᵐⁱⁿᵃ 🥀 ⁻ ᴮᵒᵗ', null, null, [
+['𝙎𝙞𝙜𝙪𝙞𝙚𝙣𝙩𝙚 🧐', `${usedPrefix}reto`],
 ['𝙏𝙤𝙥𝙨 🏆', `${usedPrefix}top`],
-['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ ☘️', `${usedPrefix}menu`]
+['𝙈𝙚𝙣𝙪 𝙥𝙧𝙞𝙣𝙘𝙞𝙥𝙖𝙡 ☘️', `${usedPrefix}menu`]
 ], m,)}
 
 handler.help = ['reto']
