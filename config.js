@@ -72,7 +72,7 @@ global.APIKeys = { // APIKey Here
 //⊱ ━━━━━.⋅ Sticker WM ⋅.━━━━ ⊰
 
 global.packname = '𒆜ᴺᵉᵇᵇᵉʳᶜʳᵃᶜᵏᵉʳ𒆜'
-global.author = 'Romina 🥀 - Bot'
+global.author = 'ᴿᵒᵐⁱⁿᵃ 🥀 ⁻ ᴮᵒᵗ'
 
 //━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
@@ -82,7 +82,7 @@ global.author = 'Romina 🥀 - Bot'
 global.vs = '1.1.5'
 global.version = vs
 
-global.gt = 'Romina 🥀 - Bot'
+global.gt = 'ᴿᵒᵐⁱⁿᵃ 🥀 ⁻ ᴮᵒᵗ'
 global.gatabot = gt
 
 global.yt = 'https://youtube.com/channel/UC9b3UIVnVb5eQt7_Y-Qz-3A'
@@ -134,8 +134,8 @@ global.exito = eg
 
 //⊱ ━━━━━.⋅ Información | Information ⋅.━━━━ ⊰
 
-global.wm = 'Romina 🥀 - Bot'
-global.igfg = 'Romina 🥀 - Bot'
+global.wm = 'ᴿᵒᵐⁱⁿᵃ 🥀 ⁻ ᴮᵒᵗ'
+global.igfg = 'ᴿᵒᵐⁱⁿᵃ 🥀 ⁻ ᴮᵒᵗ'
 global.wait = '*⌛ _Cargando..._ ▬▬▬▭*'
 
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
