@@ -27,9 +27,9 @@ let { min, xp, max } = xpRange(level, global.multiplier)
 //let name = await conn.getName(m.sender)
 const sections = [
 {
-title: `𝙇𝙄𝙎𝙏𝘼 𝘿𝙀𝙎𝙋𝙇𝙀𝙂𝘼𝘽𝙇𝙀`,
+title: `𝗠𝗘𝗡𝗨 𝗗𝗘𝗟 𝗕𝗢𝗧 `,
 rows: [
-        {title: "🎡 𝙅𝙐𝙀𝙂𝙊𝙎 𝘿𝙄𝙉𝘼𝙈𝙄𝘾𝙊𝙎 🎡", description: null, rowId: `${usedPrefix}juegosmenu`},
+        {title: "🎡 COMANDOS DEL BOT 🎡", description: null, rowId: `${usedPrefix}juegosmenu`},
     
       
 
