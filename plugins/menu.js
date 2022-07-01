@@ -206,7 +206,7 @@ await conn.sendHydrated(m.chat, str, wm, pp, md, 'Romina 🥀 - Bot', null, null
 ['𝙈𝙚𝙣𝙪́ 𝙘𝙤𝙢𝙥𝙡𝙚𝙩𝙤 💫', '.allmenu'],
 ['𝙈𝙚𝙣𝙪 𝙙𝙚𝙨𝙥𝙡𝙚𝙜𝙖𝙗𝙡𝙚 🌟', '/menulista'],
 ['𝙈𝙚𝙣𝙪 𝙋𝙧𝙞𝙣𝙘𝙞𝙥𝙖𝙡 ⚡', '#menu']
-], m)  
+])  
   
  
 //let name = await conn.getName(m.sender)
