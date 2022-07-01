@@ -42,9 +42,10 @@ rows: [
  
 let name = await conn.getName(m.sender)
 //let name = conn.getName(m.sender)
-const listMessage = {
-text: `╭────────────────❀\n│${ucapan()}\n│¸.• *${name}* •.¸\n╰────────────────❀
- 〘 𝗠𝗘𝗡𝗨 𝗗𝗘𝗟 𝗕𝗢𝗧 〙
+let str = `
+*ミ💖 𝙷𝙾𝙻𝙰 _${name}_ 💖彡*
+
+〘 𝗠𝗘𝗡𝗨 𝗗𝗘𝗟 𝗕𝗢𝗧 〙
 
 *<𝕁𝕌𝔼𝔾𝕆𝕊/>*
 
@@ -362,9 +363,11 @@ _(𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)_
 ° ඬ⃟👑 _${usedPrefix}addprem *<@tag>*_
 ° ඬ⃟👑 _${usedPrefix}delprem *<@tag>*_
 ° ඬ⃟👑 _${usedPrefix}listprem_
-╰━━━━━━━━━━━━━━━━⬣`, footer: `${wm}`, //${name} ${ucapan()}
+
+*📅 𝙵𝙴𝙲𝙷𝙰: ${week}, ${date}*
+``, footer: `${wm}`, //${name} ${ucapan()}
 title: null,
-buttonText: "", 
+buttonText: "𝙇", 
 sections }
 
 await conn.sendMessage(m.chat, listMessage)
