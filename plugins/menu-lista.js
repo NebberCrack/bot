@@ -216,7 +216,7 @@ _(𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)_
 ° ඬ⃟👑 _${usedPrefix}listprem_
 ╰━━━━━━━━━━━━━━━━⬣`, footer: `${wm}`, //${name} ${ucapan()}
 title: null,
-buttonText: "𝙇", 
+buttonText: "𝙇UZ", 
 sections 
 
 await conn.sendMessage(m.chat, listMessage)
