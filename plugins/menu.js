@@ -69,6 +69,28 @@ let pp = './Menu2.jpg'
 ╭★彡 𝗠𝗘𝗡𝗨 𝗗𝗘𝗟 𝗕𝗢𝗧 彡★
 ┃ 👋 ¡Hola! ${username}
 ┃
+┃━━━〔 𝙅𝙐𝙀𝙂𝙊𝙎 〕⬣
+┃➫ඞ _${usedPrefix}verdad_
+┃➫ඞ _${usedPrefix}reto_
+┃➫ඞ _${usedPrefix}pvp *<@tag>*_
+┃➫ඞ _${usedPrefix}ppt *<papel / tijera /piedra>*_
+┃➫ඞ _${usedPrefix}love *<nombre / @tag>*_
+┃➫ඞ _${usedPrefix}formarpareja_
+┃➫ඞ _${usedPrefix}prostituto *<nombre / @tag>*_
+┃➫ඞ _${usedPrefix}prostituta *<nombre / @tag>*_
+┃➫ඞ _${usedPrefix}gay2 *<nombre / @tag>*_
+┃➫ඞ _${usedPrefix}lesbiana *<nombre / @tag>*_
+┃➫ඞ _${usedPrefix}pajero *<nombre / @tag>*_
+┃➫ඞ _${usedPrefix}pajera *<nombre / @tag>*_
+┃➫ඞ _${usedPrefix}puto *<nombre / @tag>*_
+┃➫ඞ _${usedPrefix}puta *<nombre / @tag>*_
+┃➫ඞ _${usedPrefix}manco *<nombre / @tag>*_
+┃➫ඞ _${usedPrefix}manca *<nombre / @tag>*_
+┃➫ඞ _${usedPrefix}rata *<nombre / @tag>*_
+┃➫ඞ _${usedPrefix}topgays_
+┃➫ඞ _${usedPrefix}topotakus_
+┃➫ඞ _${usedPrefix}doxear *<nombre / @tag>*_
+┃
 ┃━━━〔 𝘼𝙐𝘿𝙄𝙊𝙎 〕⬣
 ┃➫🔊 _Noche de paz_
 ┃➫🔊 _Buenos dias_
@@ -196,27 +218,18 @@ let pp = './Menu2.jpg'
 ┃➫🔊 _Buen día grupo | 🙌_
 ┃➫🔊 _Las reglas del grupo_
 ┃
-┃━━━〔 𝙅𝙐𝙀𝙂𝙊𝙎 〕⬣
-┃➫ඞ _${usedPrefix}verdad_
-┃➫ඞ _${usedPrefix}reto_
-┃➫ඞ _${usedPrefix}pvp *<@tag>*_
-┃➫ඞ _${usedPrefix}ppt *<papel / tijera /piedra>*_
-┃➫ඞ _${usedPrefix}love *<nombre / @tag>*_
-┃➫ඞ _${usedPrefix}formarpareja_
-┃➫ඞ _${usedPrefix}prostituto *<nombre / @tag>*_
-┃➫ඞ _${usedPrefix}prostituta *<nombre / @tag>*_
-┃➫ඞ _${usedPrefix}gay2 *<nombre / @tag>*_
-┃➫ඞ _${usedPrefix}lesbiana *<nombre / @tag>*_
-┃➫ඞ _${usedPrefix}pajero *<nombre / @tag>*_
-┃➫ඞ _${usedPrefix}pajera *<nombre / @tag>*_
-┃➫ඞ _${usedPrefix}puto *<nombre / @tag>*_
-┃➫ඞ _${usedPrefix}puta *<nombre / @tag>*_
-┃➫ඞ _${usedPrefix}manco *<nombre / @tag>*_
-┃➫ඞ _${usedPrefix}manca *<nombre / @tag>*_
-┃➫ඞ _${usedPrefix}rata *<nombre / @tag>*_
-┃➫ඞ _${usedPrefix}topgays_
-┃➫ඞ _${usedPrefix}topotakus_
-┃➫ඞ _${usedPrefix}doxear *<nombre / @tag>*_
+┃━━━〔 𝘼𝘿𝙈𝙄𝙉𝙎 〕⬣
+┃➫🗝️ _${usedPrefix}grupo *abrir / cerrar*_
+┃➫🗝️ _${usedPrefix}enable / disable *restrict*_
+┃➫🗝️ _${usedPrefix}enable / disable *welcome*_
+┃➫🗝️ _${usedPrefix}enable / disable *antilink*_
+┃➫🗝️ _${usedPrefix}enable / disable *antilink2*_
+┃➫🗝️ _${usedPrefix}enable / disable *detect*_
+┃➫🗝️ _${usedPrefix}enable / disable *autosticker*_
+┃➫🗝️ _${usedPrefix}agregar / sacar *numero*_
+┃➫🗝️ _${usedPrefix}promote / demote *@tag*_
+┃➫🗝️ _${usedPrefix}reglas_
+┃➫🗝️ _${usedPrefix}hidetag *texto*_
 ╰━━━━━━━━━━━━⬣
 `.trim()
 await conn.sendHydrated(m.chat, str, null, pp, md, 'ᴿᵒᵐⁱⁿᵃ 🥀 ⁻ ᴮᵒᵗ', null, null, [
