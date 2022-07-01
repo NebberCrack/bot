@@ -211,19 +211,3 @@ await conn.sendHydrated(m.chat, str, wm, pp, md, 'Romina 🥀 - Bot', null, null
  
 //let name = await conn.getName(m.sender)
 
-
-
-handler.help = ['infomenu'].map(v => v + 'able <option>')
-handler.tags = ['group', 'owner']
-handler.command = /^(menu|Menu|MENU|Menú|menú|comandos)$/i
-handler.exp = 60
-//handler.register = true
-export default handler
-
-const more = String.fromCharCode(8206)
-const readMore = more.repeat(4001)
-function clockString(ms) {
-let h = isNaN(ms) ? '--' : Math.floor(ms / 3600000)
-let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60
-let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
-return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':')}
