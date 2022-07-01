@@ -212,7 +212,7 @@ _(𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)_
 ° ඬ⃟👑 _${usedPrefix}listprem_
 ╰━━━━━━━━━━━━━━━━⬣`, footer: `${wm}`, //${name} ${ucapan()}
 title: null,
-buttonText: "𝙇", 
+buttonText: "𝗠𝗘𝗡𝗨 𝗗𝗘𝗟 𝗕𝗢𝗧", 
 sections }
 
 await conn.sendMessage(m.chat, listMessage)
