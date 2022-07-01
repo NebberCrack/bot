@@ -359,7 +359,7 @@ rows: [
 
 handler.help = ['infomenu'].map(v => v + 'able <option>')
 handler.tags = ['group', 'owner']
-handler.command = /^(pedo|audios|menú2|memu2|menuaudio|menuaudios|memuaudios|memuaudio|audios|audio)$/i
+handler.command = /^(pedo)$/i
 handler.exp = 60
 //handler.register = true
 export default handler
