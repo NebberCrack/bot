@@ -75,7 +75,7 @@ let pp = './Menu2.jpg'
 ┃ *Puede solo escribir la*
 ┃ *Palabra o Frase.*
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃➫🔊 _Noche de paz_
+┃➫🔊 _Noche de paz xd_
 ┃➫🔊 _Buenos dias_
 ┃➫🔊 _Audio hentai_
 ┃➫🔊 _Fiesta del admin_
