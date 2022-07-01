@@ -91,7 +91,7 @@ global.youtube = yt
 global.ig = ''
 global.gatadiosig = ig
 
-global.md = 'https://github.com/elrebelde21/The-LoliBot-MD'
+global.md = 'https://github.com/NebberCracker'
 global.gatabot = md
 
 global.nn = 'https://chat.whatsapp.com/Lus9S60MABnH9lF4Wf2T7k'
