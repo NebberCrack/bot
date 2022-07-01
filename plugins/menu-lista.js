@@ -215,12 +215,8 @@ _(𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)_
 ° ඬ⃟👑 _${usedPrefix}delprem *<@tag>*_
 ° ඬ⃟👑 _${usedPrefix}listprem_
 ╰━━━━━━━━━━━━━━━━⬣`, footer: `${wm}`, //${name} ${ucapan()}
-title: null,
-buttonText: "𝙇UZ", 
-sections 
 
-await conn.sendMessage(m.chat, listMessage)
-}
+
 handler.help = ['en', 'dis'].map(v => v + 'able <option>')
 handler.tags = ['group', 'owner']
 handler.command = /^(menu|menú|memu|memú|help|info|comandos|2help|menu1.2|ayuda|commands|commandos|m|\?)$/i
