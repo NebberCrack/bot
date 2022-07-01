@@ -202,7 +202,7 @@ let pp = './Menu2.jpg'
 ┃➫🔊 _Las reglas del grupo_
 ╰━━━━━━━━━━━━⬣
 `.trim()
-await conn.sendHydrated(m.chat, str, wm, pp, md, '', null, null, [
+await conn.sendHydrated(m.chat, str, wm, pp, md, 'Romina 🥀 - Bot', null, null, [
 ['', ''],
 ['', ''],
 ['', '']
