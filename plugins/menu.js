@@ -66,7 +66,7 @@ let pp = './Menu2.jpg'
 //user.registered = false
   
  let str = `
-╭━━ 
+╭━━〘 𝗠𝗘𝗡𝗨 𝗗𝗘𝗟 𝗕𝗢𝗧 〙 
 ┃ 💖 ¡Hola! ${username} 💖
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃ *𝘼𝙐𝘿𝙄𝙊𝙎*
@@ -355,21 +355,6 @@ rows: [
 {title: "➥🔊 Las reglas del grupo", description: null, rowId: `Las reglas del grupo`},
 ]}, ]
 //let name = await conn.getName(m.sender)
-
-const listMessage = {
-text: `The Lolibot-MD| 𝘼𝙐𝘿𝙄𝙊𝙎`,
-footer: `*╭━━━〔 𝙈𝙀𝙉𝙐 𝘿𝙄𝙉𝘼𝙈𝙄𝘾𝙊 〕━━━⬣*
-*┃ 𝙃𝙚𝙮! 𝙖𝙦𝙪𝙞 𝙥𝙪𝙚𝙙𝙚 𝙚𝙡𝙚𝙜𝙞𝙧*
-*┃ 𝙚𝙡 𝘼𝙪𝙙𝙞𝙤 𝙖 𝙨𝙚𝙧 𝙪𝙩𝙞𝙡𝙞𝙯𝙖𝙙𝙤.*
-*╰━━━━━━━━━━━━━━━━━⬣*
-${wm}`,
-title: null,
-buttonText: "𝙎𝙀𝙇𝙀𝘾𝘾𝙄𝙊𝙉𝘼𝙍 𝘼𝙐𝘿𝙄𝙊", 
-sections }
-
- conn.sendMessage(m.chat, listMessage)
-
-}
 
 handler.help = ['infomenu'].map(v => v + 'able <option>')
 handler.tags = ['group', 'owner']
