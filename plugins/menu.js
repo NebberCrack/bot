@@ -200,9 +200,9 @@ let pp = './Menu2.jpg'
 ┃➫🔊 _En caso de una investigación_
 ┃➫🔊 _Buen día grupo | 🙌_
 ┃➫🔊 _Las reglas del grupo_
-╰━━━━━━〔 *𓃠 ${vs}* 〕━━━━━━⬣
+╰━━━━━━━━━━━━⬣
 `.trim()
-await conn.sendHydrated(m.chat, str, wm, pp, md, 'Romina 🥀 - Bot', null, null, [
+await conn.sendHydrated(m.chat, str, wm, pp, md, '', null, null, [
 ['', ''],
 ['', ''],
 ['', '']
