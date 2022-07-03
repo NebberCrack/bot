@@ -4,10 +4,10 @@ if (!text) throw `${mg}𝙀𝙏𝙄𝙌𝙐𝙀𝙏𝙀 @𝙏𝘼𝙂 𝙊 𝙀�
 if (command == 'gay2') {
 let juego = `_*${text.toUpperCase()}* *ES/IS* *${(1000).getRandom()}%* *GAY*_ 🏳️‍🌈`.trim()
   
-conn.sendHydrated(m.chat, juego, wm, null, md, 'ᴿᵒᵐⁱⁿᵃ 🥀 ⁻ ᴮᵒᵗ', null, null, [
-['𝙈𝙚𝙣𝙪 𝙅𝙪𝙚𝙜𝙤𝙨 🎡', '#juegosmenu'],
-['𝙊𝙩𝙧𝙖 𝙫𝙚𝙯 🤭', `${usedPrefix + command} ${text.toUpperCase()}`],
-['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ ☘️', '/menu']
+conn.sendHydrated(m.chat, juego, null, null, md, 'ᴿᵒᵐⁱⁿᵃ 🥀 ⁻ ᴮᵒᵗ', null, null, [
+['', ''],
+['', ``],
+['', '']
 ], m, m.mentionedJid ? {
 mentions: m.mentionedJid
 } : {})}
