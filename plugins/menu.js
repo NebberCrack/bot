@@ -2,8 +2,23 @@ import { xpRange } from '../lib/levelling.js'
 import PhoneNumber from 'awesome-phonenumber'
 import { promises } from 'fs'
 import { join } from 'path'
+import moment from 'moment-timezone'
 let handler = async (m, { conn, usedPrefix, command, args, usedPrefix: _p, __dirname, isOwner, text, isAdmin, isROwner }) => {
-  
+let locale = 'es'
+let d = new Date(new Date + 3600000)
+let time = d.toLocaleTimeString(locale, {
+      hour: 'numeric',
+      minute: 'numeric',
+      second: 'numeric'
+    })
+//let _uptime = process.uptime() * 1000
+//let _muptime
+//if (process.send) {
+//process.send('uptime')
+//let uptime = clockString(_uptime)
+
+let _uptime = process.uptime() * 1000
+let uptime = clockString(_uptime)   
   
 const { levelling } = '../lib/levelling.js'
 //let handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text }) => {
