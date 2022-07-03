@@ -65,7 +65,7 @@ let pp = './Menu2.jpg'
 //let user = global.db.data.users[m.sender]
 //user.registered = false
   
- let str = ` ╭────────────────❀\n│${ucapan()}\n│¸.• *${name}* •.¸\n╰────────────────❀
+ let str = ` ╭────────────────❀\n│${ucapan()}\n│¸.• *${username}* •.¸\n╰────────────────❀
 ╭★彡 𝗠𝗘𝗡𝗨 𝗗𝗘𝗟 𝗕𝗢𝗧 彡★
 ┃ 👋 ¡Hola! ${username}
 ┃
@@ -433,3 +433,22 @@ let h = isNaN(ms) ? '--' : Math.floor(ms / 3600000)
 let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60
 let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
 return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':')}
+
+
+function ucapan() {
+  const time = moment.tz('America/Los_Angeles').format('HH')  //America/Los_Angeles  Asia/Jakarta   America/Toronto
+  let res = "👋 *BIENVENIDO(A) | WELCOME* 👋"
+  if (time >= 4) {
+    res = "🌇 *Buenos Días* ⛅"
+  }
+  if (time >= 11) {
+    res = "🏙️ *Buenas Tardes* 🌤️"
+  }
+  if (time >= 15) {
+    res = "🌆 *Buenas tardes* 🌥️"
+  }
+  if (time >= 17) {
+    res = "🌃 *Buenas noches* 💫"
+  }
+  return res
+}
