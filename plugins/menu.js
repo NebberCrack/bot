@@ -67,7 +67,7 @@ let pp = './Menu2.jpg'
   
  let str = `
 ╭★彡 𝗠𝗘𝗡𝗨 𝗗𝗘𝗟 𝗕𝗢𝗧 彡★
-┃ 👋 ¡Hola! ${ucapan()}\n│${username}
+┃ 👋 ¡Hola! ${username}
 ┃
 ┃━━━〔 𝙅𝙐𝙀𝙂𝙊𝙎 〕⬣
 ┃➫ඞ _${usedPrefix}verdad_
@@ -240,7 +240,7 @@ let pp = './Menu2.jpg'
 ┃━━━〔 𝘼𝘿𝙈𝙄𝙉𝙎 〕⬣
 ┃➫🗝️ _${usedPrefix}grupo *abrir / cerrar*_
 ┃➫🗝️ _${usedPrefix}banchat / unbanchat_
-┃➫🗝️ _${usedPrefix}banuser / unbanuser *@tag*_
+┃➫🗝️ _${usedPrefix}banuser / unbanuser *numero*_
 ┃➫🗝️ _${usedPrefix}promote / demote *@tag*_
 ┃➫🗝️ _${usedPrefix}enable / disable *restrict*_
 ┃➫🗝️ _${usedPrefix}enable / disable *welcome*_
