@@ -65,7 +65,7 @@ let pp = './Menu2.jpg'
 //let user = global.db.data.users[m.sender]
 //user.registered = false
   
- let str = `
+ let str = ` ╭────────────────❀\n│${ucapan()}\n│¸.• *${name}* •.¸\n╰────────────────❀
 ╭★彡 𝗠𝗘𝗡𝗨 𝗗𝗘𝗟 𝗕𝗢𝗧 彡★
 ┃ 👋 ¡Hola! ${username}
 ┃
@@ -79,6 +79,7 @@ let pp = './Menu2.jpg'
 ┃➫ඞ _${usedPrefix}prostituto *<nombre / @tag>*_
 ┃➫ඞ _${usedPrefix}prostituta *<nombre / @tag>*_
 ┃➫ඞ _${usedPrefix}gay2 *<nombre / @tag>*_
+┃➫ඞ _${usedPrefix}gay *<nombre / @ta
 ┃➫ඞ _${usedPrefix}lesbiana *<nombre / @tag>*_
 ┃➫ඞ _${usedPrefix}pajero *<nombre / @tag>*_
 ┃➫ඞ _${usedPrefix}pajera *<nombre / @tag>*_
@@ -90,6 +91,24 @@ let pp = './Menu2.jpg'
 ┃➫ඞ _${usedPrefix}topgays_
 ┃➫ඞ _${usedPrefix}topotakus_
 ┃➫ඞ _${usedPrefix}doxear *<nombre / @tag>*_
+┃
+┃━━━〔 𝘾𝙍𝙀𝘼𝘿𝙊𝙍𝙀𝙎 〕⬣
+┃➫👽 _${usedPrefix}sticker *<responder a imagen o video>*_
+┃➫👽 _${usedPrefix}s *<responder a imagen o video>*_
+┃➫👽 _${usedPrefix}emojimix *<emoji 1>&<emoji 2>*_
+┃➫👽 _${usedPrefix}semoji *<tipo> <emoji>*_
+┃➫👽 _${usedPrefix}attp *<texto>*_
+┃➫👽 _${usedPrefix}ttp *<texto>*_
+┃➫👽 _${usedPrefix}tts *<texto>*_
+┃➫👽 _${usedPrefix}pat *<@tag>*_
+┃➫👽 _${usedPrefix}slap *<@tag>_
+┃➫👽 _${usedPrefix}kiss *<@tag>*_
+┃
+┃━━━〔 𝘿𝙀𝙎𝘾𝘼𝙍𝙂𝘼𝙎 〕⬣
+┃➫📥 _${usedPrefix}play *<nombre del audio / video>*_
+┃➫📥 _${usedPrefix}imagen *<nombre de imagen>*_
+┃➫📥 _${usedPrefix}pinterest *<nombre de imagen>*_
+┃➫📥 _${usedPrefix}wallpaper *<nombre de imagen>*_
 ┃
 ┃━━━〔 𝘼𝙐𝘿𝙄𝙊𝙎 〕⬣
 ┃➫🔊 _Noche de paz_
@@ -220,6 +239,9 @@ let pp = './Menu2.jpg'
 ┃
 ┃━━━〔 𝘼𝘿𝙈𝙄𝙉𝙎 〕⬣
 ┃➫🗝️ _${usedPrefix}grupo *abrir / cerrar*_
+┃➫🗝️ _${usedPrefix}banchat / unbanchat_
+┃➫🗝️ _${usedPrefix}banuser / unbanuser *@tag*_
+┃➫🗝️ _${usedPrefix}promote / demote *@tag*_
 ┃➫🗝️ _${usedPrefix}enable / disable *restrict*_
 ┃➫🗝️ _${usedPrefix}enable / disable *welcome*_
 ┃➫🗝️ _${usedPrefix}enable / disable *antilink*_
@@ -229,6 +251,7 @@ let pp = './Menu2.jpg'
 ┃➫🗝️ _${usedPrefix}agregar / sacar *numero*_
 ┃➫🗝️ _${usedPrefix}promote / demote *@tag*_
 ┃➫🗝️ _${usedPrefix}reglas_
+┃➫🗝️ _${usedPrefix}invocar_
 ┃➫🗝️ _${usedPrefix}hidetag *texto*_
 ╰━━━━━━━━━━━━⬣
 `.trim()
