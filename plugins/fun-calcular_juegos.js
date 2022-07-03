@@ -20,10 +20,10 @@ mentions: m.mentionedJid
 if (command == 'lesbiana') { 
 let juego = `_*${text.toUpperCase()}* *ES/IS* *${(1000).getRandom()}%* *${command.replace('how', '').toUpperCase()}*_ 🏳️‍🌈`.trim()
 
-conn.sendHydrated(m.chat, juego, wm, null, md, 'ᴿᵒᵐⁱⁿᵃ 🥀 ⁻ ᴮᵒᵗ', null, null, [
-['𝙈𝙚𝙣𝙪 𝙅𝙪𝙚𝙜𝙤 🎡', '#juegosmenu'],
-['𝙊𝙩𝙧𝙖 𝙫𝙚𝙯 🤭', `${usedPrefix + command} ${text.toUpperCase()}`],
-['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ ☘️', '/menu']
+conn.sendHydrated(m.chat, juego, null, null, md, 'ᴿᵒᵐⁱⁿᵃ 🥀 ⁻ ᴮᵒᵗ', null, null, [
+['', ''],
+['', ``],
+['', '']
 ], m, m.mentionedJid ? {
 mentions: m.mentionedJid
 } : {})}
@@ -36,10 +36,10 @@ mentions: m.mentionedJid
   
 if (command == 'pajero') {
 let juego = `_*${text.toUpperCase()}* *ES/IS* *${(1000).getRandom()}%* *${command.replace('how', '').toUpperCase()}*_ 😏💦`.trim()
-conn.sendHydrated(m.chat, juego, wm, null, md, 'ᴿᵒᵐⁱⁿᵃ 🥀 ⁻ ᴮᵒᵗ', null, null, [
-['𝙈𝙚𝙣𝙪 𝙅𝙪𝙚𝙜𝙤𝙨 🎡', '#juegosmenu'],
-['𝙊𝙩𝙧𝙖 𝙫𝙚𝙯 🤭', `${usedPrefix + command} ${text.toUpperCase()}`],
-['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ ☘️', '/menu']
+conn.sendHydrated(m.chat, juego, null, null, md, 'ᴿᵒᵐⁱⁿᵃ 🥀 ⁻ ᴮᵒᵗ', null, null, [
+['', ''],
+['', ``],
+['', '']
 ], m, m.mentionedJid ? {
 mentions: m.mentionedJid
 } : {})}
@@ -52,10 +52,10 @@ mentions: m.mentionedJid
   
 if (command == 'pajera') {
 let juego = `_*${text.toUpperCase()}* *ES/IS* *${(1000).getRandom()}%* *${command.replace('how', '').toUpperCase()}*_ 😏💦`.trim()
-conn.sendHydrated(m.chat, juego, wm, null, md, 'ᴿᵒᵐⁱⁿᵃ 🥀 ⁻ ᴮᵒᵗ', null, null, [
-['𝙈𝙚𝙣𝙪 𝙅𝙪𝙚𝙜𝙤𝙨 🎡', '#juegosmenu'],
-['𝙊𝙩𝙧𝙖 𝙫𝙚𝙯 🤭', `${usedPrefix + command} ${text.toUpperCase()}`],
-['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ ☘️', '/menu']
+conn.sendHydrated(m.chat, juego, null, null, md, 'ᴿᵒᵐⁱⁿᵃ 🥀 ⁻ ᴮᵒᵗ', null, null, [
+['', ''],
+['', ``],
+['', '']
 ], m, m.mentionedJid ? {
 mentions: m.mentionedJid
 } : {})}
@@ -68,10 +68,10 @@ mentions: m.mentionedJid
   
 if (command == 'puto') {
 let juego = `_*${text.toUpperCase()}* *ES/IS* *${(1000).getRandom()}%* *${command.replace('how', '').toUpperCase()},* *MÁS INFORMACIÓN A SU PRIVADO 🔥🥵 XD*_`.trim()
-conn.sendHydrated(m.chat, juego, wm, null, md, 'ᴿᵒᵐⁱⁿᵃ 🥀 ⁻ ᴮᵒᵗ', null, null, [
-['𝙈𝙚𝙣𝙪 𝙅𝙪𝙚𝙜𝙤𝙨 🎡', '#juegosmenu'],
-['𝙊𝙩𝙧𝙖 𝙫𝙚𝙯  🤭', `${usedPrefix + command} ${text.toUpperCase()}`],
-['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ ☘️', '/menu']
+conn.sendHydrated(m.chat, juego, null, null, md, 'ᴿᵒᵐⁱⁿᵃ 🥀 ⁻ ᴮᵒᵗ', null, null, [
+['', ''],
+['', ``],
+['', '']
 ], m, m.mentionedJid ? {
 mentions: m.mentionedJid
 } : {})}
@@ -84,10 +84,10 @@ mentions: m.mentionedJid
   
 if (command == 'puta') {
 let juego = `_*${text.toUpperCase()}* *ES/IS* *${(1000).getRandom()}%* *${command.replace('how', '').toUpperCase()},* *MÁS INFORMACIÓN A SU PRIVADO 🔥🥵 XD*_`.trim()
-conn.sendHydrated(m.chat, juego, wm, null, md, 'ᴿᵒᵐⁱⁿᵃ 🥀 ⁻ ᴮᵒᵗ', null, null, [
-['𝙈𝙚𝙣𝙪 𝙅𝙪𝙚𝙜𝙤𝙨 🎡', '#juegosmenu'],
-['𝙊𝙩𝙧𝙖 𝙫𝙚𝙯 🤭', `${usedPrefix + command} ${text.toUpperCase()}`],
-['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ ☘️', '/menu']
+conn.sendHydrated(m.chat, juego, null, null, md, 'ᴿᵒᵐⁱⁿᵃ 🥀 ⁻ ᴮᵒᵗ', null, null, [
+['', ''],
+['', `${usedPrefix + command} ${text.toUpperCase()}`],
+['', '']
 ], m, m.mentionedJid ? {
 mentions: m.mentionedJid
 } : {})}
@@ -100,10 +100,10 @@ mentions: m.mentionedJid
   
 if (command == 'manco') {
 let juego = `_*${text.toUpperCase()}* *ES/IS* *${(1000).getRandom()}%* *${command.replace('how', '').toUpperCase()} 💩*_`.trim()
-conn.sendHydrated(m.chat, juego, wm, null, md, 'ᴿᵒᵐⁱⁿᵃ 🥀 ⁻ ᴮᵒᵗ', null, null, [
-['𝙈𝙚𝙣𝙪 𝙅𝙪𝙚𝙜𝙤𝙨 🎡', '#juegosmenu'],
-['𝙊𝙩𝙧𝙖 𝙫𝙚𝙯 🤭', `${usedPrefix + command} ${text.toUpperCase()}`],
-['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ ☘️', '/menu']
+conn.sendHydrated(m.chat, juego, null, null, md, 'ᴿᵒᵐⁱⁿᵃ 🥀 ⁻ ᴮᵒᵗ', null, null, [
+['', ''],
+['', ``],
+['', '']
 ], m, m.mentionedJid ? {
 mentions: m.mentionedJid
 } : {})}
@@ -116,10 +116,10 @@ mentions: m.mentionedJid
   
 if (command == 'manca') {
 let juego = `_*${text.toUpperCase()}* *ES* *${(1000).getRandom()}%* *${command.replace('how', '').toUpperCase()} 💩*_`.trim()
-conn.sendHydrated(m.chat, juego, wm, null, md, 'ᴿᵒᵐⁱⁿᵃ 🥀 ⁻ ᴮᵒᵗ', null, null, [
-['𝙈𝙚𝙣𝙪 𝙅𝙪𝙚𝙜𝙤𝙨 🎡', '#juegosmenu'],
-['𝙊𝙩𝙧𝙖 𝙫𝙚𝙯 🤭', `${usedPrefix + command} ${text.toUpperCase()}`],
-['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ ☘️', '/menu']
+conn.sendHydrated(m.chat, juego, null, null, md, 'ᴿᵒᵐⁱⁿᵃ 🥀 ⁻ ᴮᵒᵗ', null, null, [
+['', ''],
+['', ``],
+['', '']
 ], m, m.mentionedJid ? {
 mentions: m.mentionedJid
 } : {})}
@@ -132,10 +132,10 @@ mentions: m.mentionedJid
   
 if (command == 'rata') {
 let juego = `_*${text.toUpperCase()}* *ES* *${(1000).getRandom()}%* *${command.replace('how', '').toUpperCase()} 🐁 COME QUESO 🧀*_`.trim()
-conn.sendHydrated(m.chat, juego, wm, null, md, 'ᴿᵒᵐⁱⁿᵃ 🥀 ⁻ ᴮᵒᵗ', null, null, [
-['𝙈𝙚𝙣𝙪 𝙅𝙪𝙚𝙜𝙤𝙨 🎡', '#juegosmenu'],
-['𝙊𝙩𝙧𝙖 𝙫𝙚𝙯 🤭', `${usedPrefix + command} ${text.toUpperCase()}`],
-['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ ☘️', '/menu']
+conn.sendHydrated(m.chat, juego, null, null, md, 'ᴿᵒᵐⁱⁿᵃ 🥀 ⁻ ᴮᵒᵗ', null, null, [
+['', ''],
+['', ``],
+['', '']
 ], m, m.mentionedJid ? {
 mentions: m.mentionedJid
 } : {})}
@@ -148,10 +148,10 @@ mentions: m.mentionedJid
   
 if (command == 'prostituto') {
 let juego = `_*${text.toUpperCase()}* *ES* *${(1000).getRandom()}%* *${command.replace('how', '').toUpperCase()} 🫦👅, QUIEN QUIERE DE SUS SERVICIOS? XD*_`.trim()
-conn.sendHydrated(m.chat, juego, wm, null, md, 'ᴿᵒᵐⁱⁿᵃ 🥀 ⁻ ᴮᵒᵗ', null, null, [
-['𝙈𝙚𝙣𝙪 𝙅𝙪𝙚𝙜𝙤𝙨 🎡', '#juegosmenu'],
-['𝙊𝙩𝙧𝙖 𝙫𝙚𝙯 🤭', `${usedPrefix + command} ${text.toUpperCase()}`],
-['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ ☘️', '/menu']
+conn.sendHydrated(m.chat, juego, null, null, md, 'ᴿᵒᵐⁱⁿᵃ 🥀 ⁻ ᴮᵒᵗ', null, null, [
+['', ''],
+['', ``],
+['', '']
 ], m, m.mentionedJid ? {
 mentions: m.mentionedJid
 } : {})}
@@ -164,10 +164,10 @@ mentions: m.mentionedJid
   
 if (command == 'prostituta') {
 let juego = `_*${text.toUpperCase()}* *ES* *${(1000).getRandom()}%* *${command.replace('how', '').toUpperCase()} 🫦👅, QUIEN QUIERE DE SUS SERVICIOS? XD*_`.trim()
-conn.sendHydrated(m.chat, juego, wm, null, md, 'ᴿᵒᵐⁱⁿᵃ 🥀 ⁻ ᴮᵒᵗ', null, null, [
-['𝙈𝙚𝙣𝙪 𝙅𝙪𝙚𝙜𝙤𝙨 🎡', '#juegosmenu'],
-['𝙊𝙩𝙧𝙖 𝙫𝙚𝙯 🤭', `${usedPrefix + command} ${text.toUpperCase()}`],
-['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ ☘️', '/menu']
+conn.sendHydrated(m.chat, juego, null, null, md, 'ᴿᵒᵐⁱⁿᵃ 🥀 ⁻ ᴮᵒᵗ', null, null, [
+['', ''],
+['', ``],
+['', '']
 ], m, m.mentionedJid ? {
 mentions: m.mentionedJid
 } : {})}
