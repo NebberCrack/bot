@@ -9,6 +9,6 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.customPrefix = /callese|cállese|Callese|Cállese|callate|cállate|🤫/
+handler.customPrefix = /callese|cállese|Callese|Cállese|callate|cállate|Cállate|🤫/
 handler.command = new RegExp
 export default handler
