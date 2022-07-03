@@ -103,7 +103,7 @@ let menu = `
 ┃🔍➺ _${usedPrefix}ytsearch | yts *texto*_
 ┃🔍➺ _${usedPrefix}wiki | wikipedia *texto*_
 ╰━━━━━━━━━━━━━━━━━━━⬣`.trim()
-conn.sendHydrated(m.chat, menu, wm, pp, 'https://github.com/elrebelde21/The-LoliBot-MD', 'THE LOLIBOT-𝙈𝘿', null, null, [
+conn.sendHydrated(m.chat, menu, wm, pp, '#', 'ᴿᵒᵐⁱⁿᵃ 🥀 ⁻ ᴮᵒᵗ', null, null, [
 ['𝙈𝙚𝙣𝙪́ 𝙘𝙤𝙢𝙥𝙡𝙚𝙩𝙤 💫', '.allmenu'],
 ['𝙈𝙚𝙣𝙪 𝙙𝙚𝙨𝙥𝙡𝙚𝙜𝙖𝙗𝙡𝙚 🌟', '/menulista'],
 ['𝙈𝙚𝙣𝙪 𝙋𝙧𝙞𝙣𝙘𝙞𝙥𝙖𝙡 ⚡', '#menu']
