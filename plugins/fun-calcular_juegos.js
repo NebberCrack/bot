@@ -179,9 +179,9 @@ mentions: m.mentionedJid
  // ------------------------------------------------------------------------------------------------------------------------------------------------   
 if (command == 'love') {
 let juego = `*❤️❤️ MEDIDOR DE AMOR ❤️❤️*\n*_El amor de ${text.toUpperCase()} ES DE ${(100).getRandom()}% Deberias pedirle que sea tu  novia/o ?_*`.trim()
-conn.sendHydrated(m.chat, juego, wm, null, md, null, null, null, [
+conn.sendHydrated(m.chat, juego, wm, null, md, 'ᴿᵒᵐⁱⁿᵃ 🥀 ⁻ ᴮᵒᵗ', null, null, [
 ['', ''],
-['', ``],
+['𝙊𝙩𝙧𝙖 𝙫𝙚𝙯 🤭', `${usedPrefix + command} ${text.toUpperCase()}`],
 [' ', '']
 ], m, m.mentionedJid ? {
 mentions: m.mentionedJid
