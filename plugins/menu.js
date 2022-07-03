@@ -64,10 +64,7 @@ let username = conn.getName(who)
 let pp = './Menu2.jpg'
 //let user = global.db.data.users[m.sender]
 //user.registered = false
-  
- let str = `
-╭★彡 𝗠𝗘𝗡𝗨 𝗗𝗘𝗟 𝗕𝗢𝗧 彡★
-┃ 👋 ¡Hola! ${username}
+
 ┃
 ┃━━━〔 𝙅𝙐𝙀𝙂𝙊𝙎 〕⬣
 ┃➫ඞ _${usedPrefix}verdad_
