@@ -16,7 +16,7 @@ if (!text) throw `${mg}𝘿𝙀𝘽𝙀 𝙄𝙉𝙂𝙍𝙀𝙎𝘼𝙍 𝙐�
 
 conn.reply(m.chat, `${eg}*ESPERE UNOS SEGUNDOS EL QUE MANDO SUS 𝙑𝙄𝘿𝙀𝙊 𝘿𝙀 𝙏𝙄𝙆𝙏𝙊𝙆 🔰*`, m, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
-title: 'The Lolibot-MD',
+title: 'ᴿᵒᵐⁱⁿᵃ 🥀 ⁻ ᴮᵒᵗ',
 body: 'Super Bot WhatsApp',         
 previewType: 0, thumbnail: fs.readFileSync("./media/menus/Menu3.jpg"),
 sourceUrl: `https://github.com/elrebelde21/The-LoliBot-MD`}}})
