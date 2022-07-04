@@ -2,7 +2,7 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
 if (!text) throw `${mg}𝙀𝙏𝙄𝙌𝙐𝙀𝙏𝙀 @𝙏𝘼𝙂 𝙊 𝙀𝙎𝘾𝙍𝙄𝘽𝘼 𝙀𝙇 𝙉𝙊𝙈𝘽𝙍𝙀` 
 
 if (command == 'gay2') {
-let juego = `_*${text.toUpperCase()}* *ES/IS* *${(1000).getRandom()}%* *GAY*_ 🏳️‍🌈`.trim()
+let juego = `_*${text.toUpperCase()}* *ES/IS* *${(1000).getRandom()}%* *GAY*_ 🏳️‍🌈\nAunque lo que se ve, no se pregunta 🏳️‍🌈`.trim()
   
 conn.sendHydrated(m.chat, juego, null, null, md, 'ᴿᵒᵐⁱⁿᵃ 🥀 ⁻ ᴮᵒᵗ', null, null, [
 ['', ''],
@@ -35,7 +35,7 @@ mentions: m.mentionedJid
 // ------------------------------------------------------------------------------------------------------------------------------------------------
   
 if (command == 'pajero') {
-let juego = `_*${text.toUpperCase()}* *ES/IS* *${(1000).getRandom()}%* *${command.replace('how', '').toUpperCase()}*_ 😏💦\nNO es más pajero porque no se levanta más temprano💦`.trim()
+let juego = `_*${text.toUpperCase()}* *ES/IS* *${(1000).getRandom()}%* *${command.replace('how', '').toUpperCase()}*_ 😏💦\nNo es más pajero porque no se levanta más temprano🥵`.trim()
 conn.sendHydrated(m.chat, juego, null, null, md, 'ᴿᵒᵐⁱⁿᵃ 🥀 ⁻ ᴮᵒᵗ', null, null, [
 ['', ''],
 ['', ``],
