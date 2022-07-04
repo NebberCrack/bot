@@ -35,7 +35,7 @@ mentions: m.mentionedJid
 // ------------------------------------------------------------------------------------------------------------------------------------------------
   
 if (command == 'pajero') {
-let juego = `_*${text.toUpperCase()}* *ES/IS* *${(1000).getRandom()}%* *${command.replace('how', '').toUpperCase()}*_ 😏💦`.trim()
+let juego = `_*${text.toUpperCase()}* *ES/IS* *${(1000).getRandom()}%* *${command.replace('how', '').toUpperCase()}*_ 😏💦\nNO es más pajero porque no se levanta más temprano💦`.trim()
 conn.sendHydrated(m.chat, juego, null, null, md, 'ᴿᵒᵐⁱⁿᵃ 🥀 ⁻ ᴮᵒᵗ', null, null, [
 ['', ''],
 ['', ``],
@@ -86,7 +86,7 @@ if (command == 'puta') {
 let juego = `_*${text.toUpperCase()}* *ES/IS* *${(1000).getRandom()}%* *${command.replace('how', '').toUpperCase()},* *MÁS INFORMACIÓN A SU PRIVADO 🔥🥵 XD*_`.trim()
 conn.sendHydrated(m.chat, juego, null, null, md, 'ᴿᵒᵐⁱⁿᵃ 🥀 ⁻ ᴮᵒᵗ', null, null, [
 ['', ''],
-['', `${usedPrefix + command} ${text.toUpperCase()}`],
+['', ``],
 ['', '']
 ], m, m.mentionedJid ? {
 mentions: m.mentionedJid
