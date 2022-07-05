@@ -22,7 +22,7 @@ await conn.sendFile(m.chat, link, title + '.mp3', `
 ┃ 🔰 𝙏𝙄𝙏𝙐𝙇𝙊
 ┃ ${title}
 ┃ *aqui tienes tu video*
-╰━━━━━━❰ *ᴿᵒᵐⁱⁿᵃ 🥀 ⁻ ᴮᵒᵗ* ❱━━━━━⬣`.trim(), m, null, {
+╰━━━━❰ *ᴿᵒᵐⁱⁿᵃ 🥀 ⁻ ᴮᵒᵗ* ❱━━⬣`.trim(), m, null, {
   
 asDocument: 0
 })
@@ -31,9 +31,10 @@ m.reply(`${fg}𝙀𝙎 𝙋𝙊𝙎𝙄𝘽𝙇𝙀 𝙌𝙐𝙀 𝙀𝙇 𝘼�
 console.log(e)  
 }
   
-
+let info = `
+  `.trim()
   
-conn.sendHydrated(m.chat, info, wm, null, ig, 'creador', null, null, [
+conn.sendHydrated(m.chat, info, null, null, ig, '', null, null, [
 ['', ''],
 ['', ''],
 ['', ''] 
