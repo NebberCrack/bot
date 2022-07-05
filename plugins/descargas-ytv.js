@@ -18,7 +18,7 @@ if (!isY) await conn.sendFile(m.chat, thumbnail, 'thumbnail.jpg', `
 ╰━━━━━━❰ *𓃠 ${vs}* ❱━━━━━⬣`.trim(), m)
   
 await conn.sendFile(m.chat, link, title + '.mp3', `
-╭━━❰  🎥 ️Play - Romina 🥀 🎞️ ❱━━⬣
+╭━━❰  🎥 Play - Romina 🥀 🎞️ ❱━━⬣
 ┃ 🔰 𝙏𝙄𝙏𝙐𝙇𝙊
 ┃ ${title}
 ┃ *aqui tienes tu video*
@@ -33,12 +33,7 @@ console.log(e)
   
 let info = `
   `.trim()
-  
-conn.sendHydrated(m.chat, info, null, null, ig, '', null, null, [
-['', ''],
-['', ''],
-['', ''] 
-], m,) 
+
 
 }
 handler.help = ['mp4', 'v'].map(v => 'yt' + v + ` <url>`)
