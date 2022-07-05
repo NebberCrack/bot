@@ -1,7 +1,7 @@
 # Esta versión de Romina 🥀 - Bot no esta terminada. ✨
 
 ### `—◉ DUDAS SOBRE EL BOT?, CONTACTAME ✨`
-<a href="http://wa.me/994400781527" target="blank"><img src="https://sanacion-emocional.com/wp-content/uploads/2020/06/tratamiento-terapeutico.png" /></a>
+<a href="http://wa.me/994400781527" target="blank"><img src="https://sanacion-emocional.com/wp-content/uploads/2020/06/tratamiento-terapeutico.png" width="300"/></a>
 
 
 [![blog](https://img.shields.io/badge/Grupo-lolibot-25D366?style=for-the-badge&logo=whatsapp&logoColor=white 
