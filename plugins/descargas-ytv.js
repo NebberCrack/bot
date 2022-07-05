@@ -18,11 +18,11 @@ if (!isY) await conn.sendFile(m.chat, thumbnail, 'thumbnail.jpg', `
 ╰━━━━━━❰ *𓃠 ${vs}* ❱━━━━━⬣`.trim(), m)
   
 await conn.sendFile(m.chat, link, title + '.mp3', `
-╭━━❰  ${wm}  ❱━━⬣
+╭━━❰  🎥 ️Play - Romina 🥀 🎞️ ❱━━⬣
 ┃ 🔰 𝙏𝙄𝙏𝙐𝙇𝙊
 ┃ ${title}
-┃ *aqui tiene tu video*
-╰━━━━━━❰ *𓃠 ${vs}* ❱━━━━━⬣`.trim(), m, null, {
+┃ *aqui tienes tu video*
+╰━━━━━━❰ *ᴿᵒᵐⁱⁿᵃ 🥀 ⁻ ᴮᵒᵗ* ❱━━━━━⬣`.trim(), m, null, {
   
 asDocument: 0
 })
@@ -31,13 +31,13 @@ m.reply(`${fg}𝙀𝙎 𝙋𝙊𝙎𝙄𝘽𝙇𝙀 𝙌𝙐𝙀 𝙀𝙇 𝘼�
 console.log(e)  
 }
   
-let info = `💖 *Infórmate sobre las Novedades y recuerda tener la última versión.*
+let info = `
   `.trim()
   
 conn.sendHydrated(m.chat, info, wm, null, ig, 'creador', null, null, [
-['𝙈𝙚𝙣𝙪 𝘿𝙚𝙨𝙘𝙖𝙧𝙜𝙖𝙨 🌀', '#descargasmenu'],
-['𝙈𝙚𝙣𝙪 𝘾𝙤𝙢𝙥𝙡𝙚𝙩𝙤 ✨', '.allmenu'],
-['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ ☘️', '/menu'] 
+['', ''],
+['', ''],
+['', ''] 
 ], m,) 
 
 }
