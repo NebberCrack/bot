@@ -3,32 +3,16 @@
 ### `—◉ DUDAS SOBRE EL BOT?, CONTACTAME ✨`
 <a href="http://wa.me/994400781527" target="blank"><img src="https://sanacion-emocional.com/wp-content/uploads/2020/06/tratamiento-terapeutico.png" width="200"/></a>
 
+<a href="http://wa.me/994400781527" target="blank"><img src="https://www2.institutodenegocios.com/hosted/images/df/5d7d8383434dbc8f5b3fea6f780644/boton-movil-2x.png" width="200"/></a>
+
+
 
 [![blog](https://www2.institutodenegocios.com/hosted/images/df/5d7d8383434dbc8f5b3fea6f780644/boton-movil-2x.png 
 )](https://chat.whatsapp.com/#) 
 -----
 [![blog](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
-](https://youtu.be/8Tml7lGcV-w)  <img src="https://github.com/siegrin/siegrin/blob/main/Assets/powerup.gif" height="29px">
+](https://www.youtube.com/channel/UC9ztZGC8V1fs24H0ltp1Anw)  <img src="https://github.com/siegrin/siegrin/blob/main/Assets/powerup.gif" height="29px">
 
------
-### 🟣 ACTIVAR EN HEROKU 
-#### ☂️ PARA USUARIOS DE HEROKU 
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/GataNina-Li/GataBot-MD) <img src="https://c.tenor.com/OIc0cAei3dwAAAAd/gato-baile.gif" height="32px">
-### Añada lo siguente al Buildpack: <img src="https://cdn-0.emojis.wiki/emoji-pics/microsoft/backhand-index-pointing-down-microsoft.png" height="32px">
-```bash
-> heroku/nodejs
-```
-```bash
-> https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git
-```
-```bash
-> https://github.com/clhuang/heroku-buildpack-webp-binaries.git
-```
-```bash
-> https://github.com/DuckyTeam/heroku-buildpack-imagemagick.git
-```
------
 
 ### ACTIVAR EN TERMUX
 ```bash
@@ -42,26 +26,26 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > pkg install ffmpeg -y
 > pkg install imagemagick -y
 > pkg install yarn
-> git clone https://github.com/elrebelde21/The-LoliBot-MD
-> cd The-LoliBot-MD
+> git clone https://github.com/NebberCrack/bot
+> cd bot
 > npm install
 > yarn install 
 > npm install
 > npm update
->  ls
+> ls
 > npm start
 ```
 ----    
 ###  AJUSTE <img src="https://i.pinimg.com/originals/98/1b/e2/981be28d3ec7b85bfb797a5f9e6a01c2.png" height="32px">
-- CLONAR EL REPOSITORIO [`Aquí`](https://github.com/GataNina-Li/GataBot-MD/fork)
-- CAMBIAR NÚMERO DEL OWNER [`Aquí`](https://github.com/GataNina-Li/GataBot-MD/blob/master/config.js)
+- CLONAR EL REPOSITORIO [`Aquí`](https://github.com/NebberCrack/bot/fork)
+- CAMBIAR NÚMERO DEL OWNER [`Aquí`](https://github.com/NebberCrack/bot/blob/master/config.js)
 ----  
 
 ### ACTIVAR EN CASO DE DETENERSE <img src="https://i.pinimg.com/originals/0e/c9/89/0ec989dde8b5fc0deef4e5b09292b605.gif" height="30px">
 ```bash
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > cd 
-> cd The-LoliBot-MD
+> cd bot
 > npm start
 ```
 ----
@@ -70,7 +54,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 ```bash
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > cd 
-> cd The-LoliBot-MD
+> cd bot
 > rm -rf session.data.json
 > npm start
 ```
@@ -78,7 +62,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
   
 ### NOTA 
 ```bash
-- ESTE REPOSITORIO PÚBLICA LA VERSIÓN ACTUAL|OFICIAL DE GATABOT-MD 
+- ESTE REPOSITORIO PÚBLICA LA VERSIÓN ACTUAL|OFICIAL DE ROMINA BOT 
 - #on restrict #off restric 
 - ES POSIBLE QUE EL BOT TENGA ALGUNAS FALLAS, SE IRAN SOLUCIONANDO CONFORME SE VAYAN DETECTANDO
 - ES RECOMENDABLE LEER TODO EL MENU Y VER EL FUNCIONAMIENTO DE CADA UNO DE LOS COMANDOS
@@ -96,10 +80,10 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 
 ### 🌟 AGRADECIMIENTO
  
-[![GataNina-Li](https://github.com/GataNina-Li.png?size=100)](https://github.com/GataNina-Li) 
+[![GataNina-Li](https://yt3.ggpht.com/ytc/AKedOLSp3IQCzuVL2ETgHVb4EQNL4OnxXeNjtN4iXHUs=s900-c-k-c0x00ffffff-no-rj?size=100)](https://www.youtube.com/channel/UC9ztZGC8V1fs24H0ltp1Anw) 
   
-### 💖 ```DONAR``` [`Aquí`](https://paypal.me/OficialGD)
+### 💖 ```DONAR``` [`Aquí`](https://paypal.me/webcorpecuador)
 
 ### 🌟 AGRADECIMIENTOS
  
-[![TheShadowBrokers1](https://github.com/BrunoSobrino.png?size=100)](https://github.com/BrunoSobrino) 
+
