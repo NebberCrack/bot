@@ -31,9 +31,9 @@ let top = `*🌈TOP 10 GAYS/LESBIANAS DEL GRUPO🌈*
 *_9.- ${user(i)}_*
 *_10.- ${user(j)}_*`
 //m.reply(top, null, {
-conn.sendHydrated(m.chat, top, wm, null, md, 'ᴿᵒᵐⁱⁿᵃ 🥀 ⁻ ᴮᵒᵗ', null, null, [
-['𝙊𝙩𝙧𝙖 𝙫𝙚𝙯 🔮', `${usedPrefix + command}`],
-['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ ☘️', '/menu']
+conn.sendHydrated(m.chat, top, null, null, md, 'ᴿᵒᵐⁱⁿᵃ 🥀 ⁻ ᴮᵒᵗ', null, null, [
+['', ``],
+['', '']
 ], m, null, {
 contextInfo: {
 mentionedJid: [a, b, c, d, e, f, g, h, i, j]
