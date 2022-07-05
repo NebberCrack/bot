@@ -31,8 +31,7 @@ m.reply(`${fg}𝙀𝙎 𝙋𝙊𝙎𝙄𝘽𝙇𝙀 𝙌𝙐𝙀 𝙀𝙇 𝘼�
 console.log(e)  
 }
   
-let info = `
-  `.trim()
+
   
 conn.sendHydrated(m.chat, info, wm, null, ig, 'creador', null, null, [
 ['', ''],
