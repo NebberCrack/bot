@@ -1,7 +1,7 @@
-# Esta versión de THE LOLIBOT-MD no esta terminada. ✨
+# Esta versión de Romina 🥀 - Bot no esta terminada. ✨
 
 ### `—◉ DUDAS SOBRE EL BOT?, CONTACTAME ✨`
-<a href="http://wa.me/56977774748" target="blank"><img src="https://img.shields.io/badge/lolibot-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
+<a href="http://wa.me/994400781527" target="blank"><img src="https://sanacion-emocional.com/wp-content/uploads/2020/06/tratamiento-terapeutico.png" /></a>
 
 
 [![blog](https://img.shields.io/badge/Grupo-lolibot-25D366?style=for-the-badge&logo=whatsapp&logoColor=white 
@@ -82,7 +82,8 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
   
 ### NOTA 
 ```bash
-- ESTE REPOSITORIO PÚBLICA LA VERSIÓN ACTUAL|OFICIAL DE GATABOT-MD  
+- ESTE REPOSITORIO PÚBLICA LA VERSIÓN ACTUAL|OFICIAL DE GATABOT-MD 
+- #on restrict #off restric 
 - ES POSIBLE QUE EL BOT TENGA ALGUNAS FALLAS, SE IRAN SOLUCIONANDO CONFORME SE VAYAN DETECTANDO
 - ES RECOMENDABLE LEER TODO EL MENU Y VER EL FUNCIONAMIENTO DE CADA UNO DE LOS COMANDOS
 - REPORTA CUALQUIER FALLO CON EL COMANDO DE REPORTE 
