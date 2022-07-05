@@ -1,14 +1,11 @@
 # Esta versión de Romina 🥀 - Bot no esta terminada. ✨
 
 ### `—◉ DUDAS SOBRE EL BOT?, CONTACTAME ✨`
-<a href="http://wa.me/994400781527" target="blank"><img src="https://sanacion-emocional.com/wp-content/uploads/2020/06/tratamiento-terapeutico.png" width="300"/></a>
+<a href="http://wa.me/994400781527" target="blank"><img src="https://sanacion-emocional.com/wp-content/uploads/2020/06/tratamiento-terapeutico.png" width="200"/></a>
 
 
-[![blog](https://img.shields.io/badge/Grupo-lolibot-25D366?style=for-the-badge&logo=whatsapp&logoColor=white 
-)](https://chat.whatsapp.com/Lus9S60MABnH9lF4Wf2T7k)  <a href="https://chat.whatsapp.com/Lus9S60MABnH9lF4Wf2T7k"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/WhatsApp_logo-color-vertical.svg/1200px-WhatsApp_logo-color-vertical.svg.png" height="29px"></a>
-
-[![blog](https://img.shields.io/badge/Grupo2-lolibot-25D366?style=for-the-badge&logo=whatsapp&logoColor=white 
-)](https://chat.whatsapp.com/CFSvSOGCnuL3vk4Js1DWI2) <a href="https://chat.whatsapp.com/CFSvSOGCnuL3vk4Js1DWI2"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/WhatsApp_logo-color-vertical.svg/1200px-WhatsApp_logo-color-vertical.svg.png" height="29px"></a>
+[![blog](https://www2.institutodenegocios.com/hosted/images/df/5d7d8383434dbc8f5b3fea6f780644/boton-movil-2x.png 
+)](https://chat.whatsapp.com/Lus9S60MABnH9lF4Wf2T7k)  <a href="https://chat.whatsapp.com/#"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/WhatsApp_logo-color-vertical.svg/1200px-WhatsApp_logo-color-vertical.svg.png" height="29px"></a>
 
 -----
 [![blog](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
