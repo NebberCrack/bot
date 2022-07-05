@@ -6,8 +6,8 @@ if (!vid) throw '*[❗𝐈𝐍𝐅𝐎❗] 𝙻𝙾 𝚂𝙸𝙴𝙽𝚃𝙾, �
 try {
 let { title, description, thumbnail, videoId, durationH, viewH, publishedTime } = vid
 const url = 'https://www.youtube.com/watch?v=' + videoId
-conn.sendHydrated(m.chat, `
-📌 *𝚃𝙸𝚃𝚄𝙻𝙾:* ${title}
+conn.sendHydrated(m.chat, `*⏯ ️Play - Romina 🥀 ⏯️*
+📌 *𝚃𝙸𝚃𝚄𝙻𝙾:* ${title} *⇄ㅤ     ◁   ㅤ  ❚❚ㅤ     ▷ㅤ     ↻*
 📇 *𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝙲𝙸𝙾𝙽:* ${description}
 📆 *𝙿𝚄𝙱𝙻𝙸𝙲𝙰𝙳𝙾:* ${publishedTime}
 ⌚ *𝙳𝚄𝚁𝙰𝙲𝙸𝙾𝙽:* ${durationH}
