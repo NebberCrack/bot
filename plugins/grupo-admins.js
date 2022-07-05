@@ -13,10 +13,10 @@ ${oi}
 ${listAdmin}
 
 𝙐𝙎𝘼𝙍 𝙀𝙉 𝘾𝘼𝙎𝙊 𝘿𝙀 𝙀𝙈𝙀𝙍𝙂𝙀𝙉𝘾𝙄𝘼
-╰━━━━━━[ *𓃠 ${vs}* ]━━━━━⬣`.trim()
+╰━━━━━━[ *📣* ]━━━━━⬣`.trim()
 
-conn.sendHydrated(m.chat, text, `𝘼𝙙𝙢𝙞𝙣𝙨 | ${wm}`, pp, 'https://github.com/elrebelde21/The-LoliBot-MD', 'The Lolibot-𝙈𝘿', null, null, [
-['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ ☘', '.menu']
+conn.sendHydrated(m.chat, text, ``, pp, '#', 'Romina 🥀 - Bot', null, null, [
+['', '']
 ], m, false, { mentions: [...groupAdmins.map(v => v.id), owner] })
 
 //conn.sendFile(m.chat, pp, 'error.jpg', text, m, false, { mentions: [...groupAdmins.map(v => v.id), owner] })
