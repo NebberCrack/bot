@@ -7,14 +7,15 @@ try {
 let { title, description, thumbnail, videoId, durationH, viewH, publishedTime } = vid
 const url = 'https://www.youtube.com/watch?v=' + videoId
 conn.sendHydrated(m.chat, `*⏯ ️Play - Romina 🥀 ⏯️*
-📌 *𝚃𝙸𝚃𝚄𝙻𝙾:* ${title} *⇄ㅤ     ◁   ㅤ  ❚❚ㅤ     ▷ㅤ     ↻*
+📌 *𝚃𝙸𝚃𝚄𝙻𝙾:* ${title} 
+*⇄ㅤ ◁   ㅤ❚❚ㅤ   ▷ㅤ  ↻*
 📇 *𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝙲𝙸𝙾𝙽:* ${description}
 📆 *𝙿𝚄𝙱𝙻𝙸𝙲𝙰𝙳𝙾:* ${publishedTime}
 ⌚ *𝙳𝚄𝚁𝙰𝙲𝙸𝙾𝙽:* ${durationH}
 👀 *𝚅𝙸𝚂𝚃𝙰𝚂:* ${viewH}
-`.trim(), author, thumbnail, `${url}`, '𝚄𝚁𝙻', null, null, [
-['𝐀𝐔𝐃𝐈𝐎', `${usedPrefix}yta ${url} yes`],
-['𝐕𝐈𝐃𝐄𝐎', `${usedPrefix}ytv ${url} yes`]
+`.trim(), null, thumbnail, `${url}`, '𝚄𝚁𝙻', null, null, [
+['🎵 AUDIO 💽 ', `${usedPrefix}yta ${url} yes`],
+['🎥 VIDEO 🎞️', `${usedPrefix}ytv ${url} yes`]
 ], m)
 }catch(e){
 m.reply('*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁𝙻𝙾*')
