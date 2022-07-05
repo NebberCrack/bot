@@ -82,5 +82,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 ### 💖 ```DONAR``` [`Aquí`](https://paypal.me/webcorpecuador)
 
 ### 🌟 AGRADECIMIENTOS
+
+By 𒆜ᴺᵉᵇᵇᵉʳᶜʳᵃᶜᵏᵉʳ𒆜
  
 
