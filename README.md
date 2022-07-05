@@ -6,9 +6,6 @@
 <a href="http://wa.me/994400781527" target="blank"><img src="https://www2.institutodenegocios.com/hosted/images/df/5d7d8383434dbc8f5b3fea6f780644/boton-movil-2x.png" width="200"/></a>
 
 
-
-[![blog](https://www2.institutodenegocios.com/hosted/images/df/5d7d8383434dbc8f5b3fea6f780644/boton-movil-2x.png 
-)](https://chat.whatsapp.com/#) 
 -----
 [![blog](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
 ](https://www.youtube.com/channel/UC9ztZGC8V1fs24H0ltp1Anw)  <img src="https://github.com/siegrin/siegrin/blob/main/Assets/powerup.gif" height="29px">
