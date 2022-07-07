@@ -92,8 +92,8 @@ let menu = `╭━━〔 *${wm}* 〕━━⬣
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃ ✪ *USUARIOS | USERS*
 ┃ ➥ *${Object.keys(global.db.data.users).length}* 
-╰━━━━━━〔 *𓃠 ${vs}* 〕━━━━━━⬣`.trim()
-conn.sendHydrated(m.chat, menu, wm, pp, 'https://github.com/elrebelde21/The-LoliBot-MD', 'The Lolibot-𝙈𝘿', null, null, [
+╰━━━━━━〔 *🏁* 〕━━━━━━⬣`.trim()
+conn.sendHydrated(m.chat, menu, wm, pp, '#', 'Romina 🥀 - Bot', null, null, [
 ['𝙀𝙭𝙥𝙚𝙧𝙞𝙚𝙣𝙘𝙞𝙖 𝙥𝙤𝙧 𝘿𝙞𝙖𝙢𝙖𝙣𝙩𝙚 ⚡', '.buy'],
 ['𝙂𝙖𝙩𝙖𝘾𝙤𝙞𝙣𝙨 𝙥𝙤𝙧 𝘿𝙞𝙖𝙢𝙖𝙣𝙩𝙚 🐈', '/buy2'],
 ['𝙏𝙤𝙥𝙨 🏆', '#top']

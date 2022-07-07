@@ -13,14 +13,14 @@ let handler = async (m, { conn, command, args, usedPrefix }) => {
 ┃ *Ha Gastado* :  -${xpperlimit * count} LOLI𝘾𝙊𝙄𝙉𝙎
 ╰━━━━━〔 *𓃠 ${vs}* 〕━━━━⬣`.trim()
     
-await conn.sendHydrated(m.chat, gata, wm, null, md, 'Thw Lolibo𝙩-𝙈𝘿', null, null, [
+await conn.sendHydrated(m.chat, gata, wm, null, md, 'Romina 🥀 - Bot', null, null, [
 ['💵 𝘾𝙤𝙢𝙥𝙧𝙖𝙧 𝙓10', '.buy2 10'],
 ['💸 𝘾𝙤𝙢𝙥𝙧𝙖𝙧 𝙓20', '.buy2 20'],
 ['⚡ 𝘾𝙤𝙢𝙥𝙧𝙖𝙧 𝙘𝙤𝙣 𝙀𝙭𝙥𝙚𝙧𝙞𝙚𝙣𝙘𝙞𝙖', '/buy']
 ], m,)
     
   } else //conn.reply(m.chat, `❎ Lo siento, no tienes suficientes *XP* para comprar *${count}* Diamantes💎`, m)
-    await conn.sendHydrated(m.chat, `*No tiene sufuciente *LOLI𝘾𝙊𝙄𝙉𝙎* para comprar ${count} Diamantes* 💎\n\n*Le recomiendo que interactúe con The LoliBot-MD para Obtener LoliCoins, puede ver sus loliCoins con el comando ${usedPrefix}lolicoins o ${usedPrefix}experiencia. También puede comprar con su Experiencia con el Comando ${usedPrefix}buy*`, wm, null, ig, '𝙄𝙣𝙨𝙩𝙖𝙜𝙧𝙖𝙢', null, null, [
+    await conn.sendHydrated(m.chat, `*No tiene sufuciente *LOLI𝘾𝙊𝙄𝙉𝙎* para comprar ${count} Diamantes* 💎\n\n*Le recomiendo que interactúe con el bot para Obtener LoliCoins, puede ver sus loliCoins con el comando ${usedPrefix}lolicoins o ${usedPrefix}experiencia. También puede comprar con su Experiencia con el Comando ${usedPrefix}buy*`, wm, null, ig, '𝙄𝙣𝙨𝙩𝙖𝙜𝙧𝙖𝙢', null, null, [
 ['🐈 𝘾𝙤𝙢𝙥𝙧𝙖𝙧 𝙘𝙤𝙣 𝙀𝙭𝙥𝙚𝙧𝙞𝙚𝙣𝙘𝙞𝙖', '/buy'],
 ['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ ☘️', '/menu']
 ], m,)

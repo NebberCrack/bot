@@ -121,7 +121,7 @@ ${role}
 *NOVATO(A) II* 🪤
 *NOVATO(A) III* 🪤
 ╰━━━━━━━━━━━━━━━━━━━⬣`.trim()
-conn.sendHydrated(m.chat, menu, `𝙍𝘼𝙉𝙂𝙊𝙎 | ${wm}`, pp, 'https://github.com/Subbotsito/The-LoliBot-MD', 'The Lolibot-𝙈𝘿', null, null, [
+conn.sendHydrated(m.chat, menu, `𝙍𝘼𝙉𝙂𝙊𝙎 | ${wm}`, pp, '#', 'Romina 🥀 - Bot', null, null, [
 ['𝙈𝙚𝙣𝙪́ 𝙘𝙤𝙢𝙥𝙡𝙚𝙩𝙤 💫', '.allmenu'],
 ['𝙏𝙤𝙥𝙨 🏆', `${usedPrefix}top`],
 ['𝙈𝙚𝙣𝙪 𝙋𝙧𝙞𝙣𝙘𝙞𝙥𝙖𝙡 ⚡', '#menu']
