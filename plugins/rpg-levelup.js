@@ -17,7 +17,7 @@ let user = global.db.data.users[m.sender]
 ┃ *RANGO:* ${role}
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃ *XP:* *${user.exp - min}/${xp}*
-╰━━━〔 *𓃠 ${vs}* 〕━━━━━⬣
+╰━━━〔 * 🥇 * 〕━━━━━⬣
 
 *Te falta ${max - user.exp} de XP para subir de nivel*
 `.trim()
@@ -35,9 +35,9 @@ let user = global.db.data.users[m.sender]
 ┃ *RANGO:* ${role}
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃ *FECHA:* *${new Date().toLocaleString('id-ID')}*
-╰━━━〔 *𓃠 ${vs}* 〕━━━━━⬣
+╰━━━〔 * 🥇 * 〕━━━━━⬣
 
-*_Cuanto más interactúes con The Lolibot-MD, mayor será tu nivel!!_*
+*_Cuanto más interactúes con el bot, mayor será tu nivel!!_*
 `.trim()
         try {
             const img = await levelup(teks, user.level)
