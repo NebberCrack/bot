@@ -9,6 +9,6 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.customPrefix = /Te elimino|aporte|participe|aporte|participar/
+handler.customPrefix = /Te elimino|aporte|participe|aporte|participar|nadie habla|Te eliminó/
 handler.command = new RegExp
 export default handler
