@@ -12,6 +12,6 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.command = /^(hola|ola|Hola🤖|ola🤖)$/i
+handler.command = /^(Hola bot|ola bot|Romina|Hola🤖|ola🤖)$/i
 handler.fail = null
 export default handler
