@@ -12,6 +12,6 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.command = /^(Romina)$/i
-handler.fail = null
+handler.customPrefix = /Hola Romina|hola bot|Romina|Hola Romi|Hola bot/ 
+handler.command = new RegExp
 export default handler
