@@ -94,7 +94,7 @@ global.bucin = [
 "Colorea tus uñas de las manos y de los pies de diferentes colores durante una semana.", 
 "come 2 cucharadas de arroz sin guarniciones", 
 "Envie el emoji '🦄💨' cada vez que escriba en un grupo 1 día", 
-"diga '¡Bienvenido a Quién quiere ser millonario!' a todos los grupos que tienes", 
+"diga '¡Bienvenido a Quién Kiere ser millonario!' a todos los grupos que tienes", 
 "canta el coro de la última canción que tocaste", 
 "Envia un audio de voz a tu ex / enamorado / novia, dile hola (nombre), quiero llamar, solo un momento. Te Extraño🥺👉🏼👈🏼 ", 
 "Dile a la gente al azar: Primero me dijeron que era tu gemelo, nos separamos y luego me sometí a una cirugía plástica. Y esto", 
