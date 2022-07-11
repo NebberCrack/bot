@@ -100,7 +100,7 @@ global.nngrupo = nn
 global.nnn = 'https://chat.whatsapp.com/CFSvSOGCnuL3vk4Js1DWI2'
 global.nnngrupo = nnn
 
-global.paypal = 'https://www.instagram.com/gata_dios  https://paypal.me/OficialGD'
+global.paypal = 'https://www.instagram.com/WebcorpEcuador  https://paypal.me/webcorpecuador'
 global.donar = paypal
 
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
