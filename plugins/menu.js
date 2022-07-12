@@ -128,7 +128,8 @@ let pp = './Menu2.jpg'
 ┃➫🔊 _Hola_
 ┃➫🔊 _Un pato_
 ┃➫🔊 _Nyanpasu_
-┃➫🔊 _Te amo_
+┃➫🔊 _Te amo_┃
+┃➫🔊 _Te quiero_
 ┃➫🔊 _Yamete_
 ┃➫🔊 _Te diagnostico con gay_
 ┃➫🔊 _Quien es tu sempai botsito 7w7_
@@ -235,6 +236,7 @@ let pp = './Menu2.jpg'
 ┃➫🔊 _En caso de una investigación_
 ┃➫🔊 _Buen día grupo | 🙌_
 ┃➫🔊 _Las reglas del grupo_
+┃➫🔊 _Andan cogiendo_
 ┃
 ┃━━━〔 𝘼𝘿𝙈𝙄𝙉𝙎 〕⬣
 ┃➫🗝️ _${usedPrefix}grupo *abrir / cerrar*_
