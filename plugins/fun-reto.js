@@ -8,7 +8,7 @@ conn.sendHydrated(m.chat, `╭━━━━━[ 𝙍𝙀𝙏𝙊 😏 ]━━━�
 
 handler.help = ['reto']
 handler.tags = ['fun']
-handler.command = /^reto2/i
+handler.command = /^reto/i
 handler.fail = null
 export default handler
 
