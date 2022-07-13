@@ -1,6 +1,6 @@
 let handler = async (m, { conn, text, command, usedPrefix }) => {
-    if (!text) throw '*_A QUIEN QUIERE BANEAR?_*'
-    let who
+    if (!text) throw `${mg}𝙀𝙏𝙄𝙌𝙐𝙀𝙏𝙀 𝘼 𝘼𝙇𝙂𝙐𝙄𝙀𝙉 𝙋𝘼𝙍𝘼 𝘽𝘼𝙉𝙀𝘼𝙍\n𝙀𝙅𝙀𝙈𝙋𝙇𝙊\n*${usedPrefix + command} @tag*`
+let who
     if (m.isGroup) who = m.mentionedJid[0]
     else who = m.chat
     if (!who) throw '*_ETIQUETE A ALGUN USUARIO_*'
