@@ -1,4 +1,4 @@
-let handler = async (m, { conn, text}) => {
+let handler = async (m, { conn, text, command, usedPrefix }) => {
     if (!text) throw '*_A QUIEN QUIERE BANEAR?_*'
     let who
     if (m.isGroup) who = m.mentionedJid[0]
@@ -11,6 +11,5 @@ let handler = async (m, { conn, text}) => {
 handler.help = ['banuser']
 handler.tags = ['owner']
 handler.command = /^banuser$/i
-handler.group = true
-handler.admin = true 
-export default handler
+handler.rowner = true
+module.exports = handler
