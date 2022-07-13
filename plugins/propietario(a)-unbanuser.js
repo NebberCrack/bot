@@ -9,7 +9,7 @@ users[who].banned = false
 conn.reply(m.chat, `*[❗🗣️❗] 𝙴𝙻 𝚄𝚂𝚄𝙰𝚁𝙸𝙾 𝙵𝚄𝙴 𝙳𝙴𝚂𝙱𝙰𝙽𝙴𝙰𝙳𝙾 𝙲𝙾𝙽 𝙴𝚇𝙸𝚃𝙾*\n*—◉ 𝙴𝙻 𝚄𝚂𝚄𝙰𝚁𝙸𝙾 𝚈𝙰 𝙿𝚄𝙴𝙳𝙴 𝚄𝚂𝙰𝚁 𝙴𝙻 𝙱𝙾𝚃*`, m)
 }
 handler.help = ['unbanuser']
-handler.tags = ['owner']
+handler.tags = ['group']
 handler.command = /^unbanuser$/i
 handler.rowner = true
 export default handler
