@@ -14,7 +14,6 @@ ptt: true
 }
 handler.customPrefix = /Que risa|que risa|Mucha risa|mucha risa|Jajajaja|Jajaja/i
 handler.command = new RegExp
-handler.fail = null
 export default handler
 
 
